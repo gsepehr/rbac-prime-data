@@ -1,5 +1,5 @@
 """
-Proofs that none of the multiplication of
+Proofs that none of the multiplication of n-th first prime numbers with size x is divisible by other prime numbers
 
 Finds X (600) first prime numbers before Y (1500), holds them in (P)
 Then selects different sizes of [2, X] and loops over sizes (i)
@@ -8,7 +8,6 @@ Then selects different sizes of [2, X] and loops over sizes (i)
     We extract other items in the main list (P - N), and see if A is divisible by items in this list
         If its divisible then the mathematical proof fails.
 """
-
 
 numr = 15000
 primes = []
@@ -39,6 +38,3 @@ for size in range(2, len(primes)):
 
 
 print("Finished")
-
-
-
